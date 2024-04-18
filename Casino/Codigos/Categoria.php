@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Categoria de Jogos de Aposta</title>
-<link rel="stylesheet" type="text/css" href="Categoria.css">
+<link reel="stylesheet" type="text/css" href="Categoria.css">
 </head>
 <style>
     /* Estilos CSS para layout */
@@ -19,7 +19,6 @@ body {
     margin: 0 auto;
     padding: 20px;
  
-    
 }
 
 .search-input {
