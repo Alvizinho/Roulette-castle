@@ -1,5 +1,5 @@
 body {
-    background-color: #282828;
+    background-color: #ffffff;
     padding: 0;
     margin: 0;
 }
@@ -70,4 +70,82 @@ nav a:last-child {
     position: relative;
     width: 300px;
     height: 200px;
-  }
+  
+}
+
+.container-perfil {
+    font-size: 20px;
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1 {
+    font-family: 'Righteous';
+    color:#10BB01;
+    margin-left: 100px;
+}
+
+p  {
+    font-family: 'Questrial';
+    margin-left: 50px;
+    
+}
+
+
+.container-info {
+    color: #000000;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.container-saldo {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container-saldo > div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Righteous';
+}
+
+.depositar {
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+
+
+}
+
+.sacar {
+    border-style: solid;
+    
+}
+
+.container-dinheiro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-dinheiro > div {
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dinheiro p {
+    margin-left: 0;
+}
+
+.container-dinheiro > div:last-child span {
+    transform: rotate(180deg);
+}
